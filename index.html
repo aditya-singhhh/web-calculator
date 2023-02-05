@@ -15,8 +15,8 @@
         <div class="buttons">
             <input type="button" value="AC" class="button orange-button" onclick="display.value = '' ">
             <input type="button" value="X" class="button orange-button" onclick="display.value = display.value.toString().slice(0,-1) ">
-            <input type="button" value="%" class="button orange-button" onclick="display.value = '%' ">
-            <input type="button" value="/" class="button orange-button" onclick="display.value = '/' ">
+            <input type="button" value="%" class="button orange-button" onclick="display.value += '%' ">
+            <input type="button" value="/" class="button orange-button" onclick="display.value += '/' ">
 
             <input type="button" value="7" class="button" onclick="display.value += '7' ">
             <input type="button" value="8" class="button" onclick="display.value += '8' ">
